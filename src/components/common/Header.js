@@ -16,7 +16,7 @@ const CXLoyalty = styled.h1`
 
 export const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer data-testid={"Header"}>
       <CXLoyalty>cxLoyalty</CXLoyalty>
     </HeaderContainer>
   );

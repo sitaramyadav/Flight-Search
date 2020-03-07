@@ -4,7 +4,7 @@ import { Header } from "./common/Header";
 
 export const App = () => {
   return (
-    <div>
+    <div data-testid="App">
       <Header />
     </div>
   );
